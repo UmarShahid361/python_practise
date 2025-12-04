@@ -1,34 +1,6 @@
-# Variables with different data types
+# File: main.py
 
-student_name = "Umar"
-age = 100
-height = 6.2
-is_public = False
-print(student_name)
-print(len(student_name))
-print(age)
-print(height)
-print(is_public)
-print("s" in student_name)
+import utils
 
-# Arithmetic Operations
-print(10 + 3)
-print(10 - 3)
-print(10 * 3)
-print(10 / 3)
-print(10 // 3)
-print(10 % 3)
-
-
-# Input / Output
-x = input("Enter your number: ")
-y = int(x) + 1
-print(f"Number is {x} and {y}")
-
-# Comparison Operatros
-x = 10
-y = 10
-print(x > y)
-print(x < y)
-print(x >= y)
-print(x <= y)
+print("This is the main program running.")
+print(f"The favorite color is: {utils.get_favorite_color()}")
